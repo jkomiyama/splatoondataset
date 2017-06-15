@@ -1,12 +1,16 @@
-# Project Title
+# Splatoon Dataset
 
-One Paragraph of project description goes here
+Splatoon dataset consisted of the results of online multi-player games. We gathered the results of about 400,000 Splatoon matches on Stat.ink from October 31, 2015 to January 30, 2016. 
 
-## Getting Started
+* [Splatoon](https://www.nintendo.com/games/detail/splatoon-wii-u) - An official webpage of the Splatoon online game.
+* [Stat.ink](https://stat.ink/) - An unofficial website where Splatoon match results are uploaded.
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+## Download
 
-### Prerequisites
+* [Match results](https://test.com) - An official webpage of the Splatoon online game.
+* [Patterns](https://test.com) - We converted the players' weapons, ranks, and the features related to the battle arena into integers (items in terms of pattern mining).
+
+### Other scripts (in this repo)
 
 What things you need to install the software and how to install them
 
