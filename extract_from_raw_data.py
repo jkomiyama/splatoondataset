@@ -6,8 +6,9 @@ import traceback
 import ujson as json
 import os
 import sys
-reload(sys)
-sys.setdefaultencoding('UTF8')
+if sys.version_info[0] == 2:
+  reload(sys)
+  sys.setdefaultencoding('UTF8')
 
 def main():
     start = 500000
@@ -29,6 +30,7 @@ def read_file(battle_ids):
         try:
             filename = os.path.join(sys.argv[1], str(battle_id)+".json.gz")
             with gzip.open(filename, "rt") as f:
+# for Python 3
 #            with gzip.open(filename, "rt", encoding="utf-8") as f:
                 try:
                     raw = f.read(-1)
