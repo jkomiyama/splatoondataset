@@ -7,15 +7,15 @@ Splatoon dataset consisted of the results of online multi-player games. We gathe
 
 ## Download
 
-* [Match results](https://test.com) - An official webpage of the Splatoon online game.
-* [Converted Patterns](https://test.com) - We converted the players' weapons, ranks, and the features related to the battle arena into integers (items in terms of pattern mining).
+* [Match results: splatoon.tsv](https://test.com) - An official webpage of the Splatoon online game.
+* [Converted Patterns: splatoon.label](https://test.com) - We converted the players' weapons, ranks, and the features related to the battle arena into integers (items in terms of pattern mining).
 
 ### Other scripts (in this repo)
 
 The following scripts are used in making the dataset.
 
 * [fetch.sh](./fetch.sh) - A crawler for gathering match results.
-* [extract_from_raw_data.py](./extract_from_raw_data.py) - Convert crawled data into battles.tsv.
+* [extract_from_raw_data.py](./extract_from_raw_data.py) - Convert crawled data into splatoon.tsv.
 
 ## Acknowledgments
 
