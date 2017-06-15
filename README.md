@@ -14,8 +14,8 @@ Splatoon dataset consisted of the results of online multi-player games. We gathe
 
 The following scripts are used in making the dataset.
 
-* [Fetch.sh](https://test.com) - A crawler for gathering match results.
-* [extract_from_raw_data.py](https://test.com) - Convert crawled data into battles.tsv.
+* [fetch.sh](./fetch.sh) - A crawler for gathering match results.
+* [extract_from_raw_data.py](./extract_from_raw_data.py) - Convert crawled data into battles.tsv.
 
 ## Acknowledgments
 
