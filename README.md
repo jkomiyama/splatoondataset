@@ -16,6 +16,7 @@ The following scripts are used in making the dataset.
 
 * [fetch.sh](./fetch.sh) - A crawler for gathering match results.
 * [extract_from_raw_data.py](./extract_from_raw_data.py) - Convert crawled data into splatoon.tsv.
+* [feature_generator.py](./feature_generator.py) - Convert splatoon.tsv into splatoon.label.
 
 ## Acknowledgments
 
