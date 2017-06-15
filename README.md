@@ -7,8 +7,8 @@ Splatoon dataset consisted of the results of online multi-player games. We gathe
 
 ## Download
 
-* [Match results: splatoon.tsv](https://test.com) - An official webpage of the Splatoon online game.
-* [Converted Patterns: splatoon.label](https://test.com) - We converted the players' weapons, ranks, and the features related to the battle arena into integers (items in terms of pattern mining).
+* [Match results: splatoon.tsv](https://www.dropbox.com/s/1w9yy5ajvoz2bs4/splatoon.tsv?dl=0) - An official webpage of the Splatoon online game.
+* [Converted Patterns: splatoon.label](https://www.dropbox.com/s/7ld9t5jym3kzqdq/splatoon.label?dl=0) - We converted the players' weapons, ranks, and the features related to the battle arena into integers (items in terms of pattern mining).
 
 ### Other scripts (in this repo)
 
